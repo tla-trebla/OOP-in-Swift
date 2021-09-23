@@ -79,3 +79,12 @@ piano.play(music)
 // 4
 Piano.whiteKeys
 Piano.blackKeys
+
+class Guitar: Instrument {
+    let stringGauge: String
+    
+    init(brand: String, stringGauge: String = "medium") {
+        self.stringGauge = stringGauge
+        super.init(brand: brand)
+    }
+}
