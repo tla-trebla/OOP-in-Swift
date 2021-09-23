@@ -67,3 +67,7 @@ class Piano: Instrument {
         }
     }
 }
+
+// 1
+let piano = Piano(brand: "Yamaha", hasPedals: true)
+piano.tune()
