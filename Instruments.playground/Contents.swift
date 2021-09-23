@@ -23,4 +23,8 @@ class Instrument {
     func tune() -> String {
         fatalError("Implement this method for \(brand)")
     }
+    
+    func play(_ music: Music) -> String {
+        return music.prepared()
+    }
 }
