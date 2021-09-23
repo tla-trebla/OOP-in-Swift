@@ -107,3 +107,8 @@ let acousticGuitar = AcousticGuitar(brand: "Roland")
 acousticGuitar.tune()
 let guitarMusic = Music(notes: ["C", "E", "D"])
 acousticGuitar.play(guitarMusic)
+
+// 1
+class Amplifier {
+    
+}
