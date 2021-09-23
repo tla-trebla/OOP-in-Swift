@@ -102,3 +102,8 @@ class AcousticGuitar: Guitar {
         return "Play folk tune on frets \(preparedNotes)"
     }
 }
+
+let acousticGuitar = AcousticGuitar(brand: "Roland")
+acousticGuitar.tune()
+let guitarMusic = Music(notes: ["C", "E", "D"])
+acousticGuitar.play(guitarMusic)
