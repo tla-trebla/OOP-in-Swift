@@ -44,7 +44,7 @@ class Piano: Instrument {
     // 3
     init(brand: String, hasPedals: Bool = false) {
         self.hasPedals = hasPedals
-        
+        // 4
         super.init(brand: brand)
     }
 }
