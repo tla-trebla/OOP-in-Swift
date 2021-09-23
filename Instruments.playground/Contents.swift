@@ -47,4 +47,9 @@ class Piano: Instrument {
         // 4
         super.init(brand: brand)
     }
+    
+    // 5
+    override func tune() -> String {
+        return "Piano standard tuning for \(brand)."
+    }
 }
