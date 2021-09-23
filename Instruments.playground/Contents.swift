@@ -33,3 +33,14 @@ class Instrument {
         print(play(music))
     }
 }
+
+// 1
+class Piano: Instrument {
+    let hasPedals: Bool
+    
+    init(brand: String, hasPedals: Bool = false) {
+        self.hasPedals = hasPedals
+        
+        super.init(brand: brand)
+    }
+}
