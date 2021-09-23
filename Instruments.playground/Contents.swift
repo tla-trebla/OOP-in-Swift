@@ -7,4 +7,8 @@ class Instrument {
         // 4
         self.brand = brand
     }
+    
+    func tune() -> String {
+        fatalError("Implement this method for \(brand)")
+    }
 }
