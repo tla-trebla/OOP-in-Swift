@@ -71,3 +71,6 @@ class Piano: Instrument {
 // 1
 let piano = Piano(brand: "Yamaha", hasPedals: true)
 piano.tune()
+// 2
+let music = Music(notes: ["C", "G", "F"])
+piano.play(music, usingPedals: false)
