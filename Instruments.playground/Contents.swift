@@ -41,6 +41,7 @@ class Piano: Instrument {
     static let whiteKeys = 52
     static let blackKeys = 36
     
+    // 3
     init(brand: String, hasPedals: Bool = false) {
         self.hasPedals = hasPedals
         
