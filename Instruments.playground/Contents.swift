@@ -58,4 +58,14 @@ class Piano: Instrument {
         let preparedNotes = super.play(music)
         return "Piano is playing \(preparedNotes)"
     }
+    
+    func play(_ music: Music, usingPedals: Bool) -> String {
+        let preparedNotes = super.play(music)
+        if hasPedals && usingPedals {
+            return "Play piano notes \(preparedNotes) with pedals."
+        }
+        else {
+            return "Play piano notes \(preparedNotes) without pedals."
+        }
+    }
 }
