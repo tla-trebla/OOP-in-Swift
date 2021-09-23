@@ -27,4 +27,9 @@ class Instrument {
     func play(_ music: Music) -> String {
         return music.prepared()
     }
+    
+    func perform(_ music: Music) {
+        print(tune())
+        print(play(music))
+    }
 }
