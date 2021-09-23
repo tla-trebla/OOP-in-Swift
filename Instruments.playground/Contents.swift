@@ -74,3 +74,5 @@ piano.tune()
 // 2
 let music = Music(notes: ["C", "G", "F"])
 piano.play(music, usingPedals: false)
+// 3
+piano.play(music)
