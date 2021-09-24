@@ -152,4 +152,11 @@ class ElectricGuitar: Guitar {
         self.amplifier = amplifier
         super.init(brand: brand, stringGauge: stringGauge)
     }
+    
+    // 4
+    override func tune() -> String {
+        amplifier.plugIn()
+        amplifier.volume = 5
+        return "Tune \(brand) electric with E A D G B E"
+    }
 }
