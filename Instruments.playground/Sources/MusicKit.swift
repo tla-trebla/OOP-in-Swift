@@ -14,5 +14,9 @@ final public class Music {
 
 // 3
 open class Instrument {
+    public let brand: String
     
+    public init(brand: String) {
+        self.brand = brand
+    }
 }
