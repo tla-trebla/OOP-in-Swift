@@ -144,5 +144,7 @@ class Amplifier {
 
 // 1
 class ElectricGuitar: Guitar {
+    // 2
+    let amplifier: Amplifier
     
 }
