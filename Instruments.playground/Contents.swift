@@ -119,4 +119,12 @@ class Amplifier {
         isOn = false
         _volume = 0
     }
+    
+    func plugIn() {
+        isOn = true
+    }
+    
+    func plugoff() {
+        isOn = false
+    }
 }
