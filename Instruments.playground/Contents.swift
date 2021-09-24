@@ -141,3 +141,8 @@ class Amplifier {
         }
     }
 }
+
+// 1
+class ElectricGuitar: Guitar {
+    
+}
