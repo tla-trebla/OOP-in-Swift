@@ -19,4 +19,13 @@ open class Instrument {
     public init(brand: String) {
         self.brand = brand
     }
+    
+    // 4
+    open func tune() -> String {
+        fatalError("Implement this method for \(brand)")
+    }
+    
+    open func play(_ music: Music) -> String {
+        return music.prepared()
+    }
 }
