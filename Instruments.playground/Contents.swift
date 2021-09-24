@@ -168,5 +168,6 @@ class ElectricGuitar: Guitar {
 }
 
 class BassGuitar: Guitar {
+    let amplifier: Amplifier
     
 }
