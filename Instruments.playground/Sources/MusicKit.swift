@@ -28,4 +28,10 @@ open class Instrument {
     open func play(_ music: Music) -> String {
         return music.prepared()
     }
+    
+    // 5
+    final public func perform(_ music: Music) {
+        print(tune())
+        print(play(music))
+    }
 }
