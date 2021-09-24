@@ -166,3 +166,7 @@ class ElectricGuitar: Guitar {
         return "Play solo \(preparedNotes) at volume \(amplifier.volume)."
     }
 }
+
+class BassGuitar: Guitar {
+    
+}
