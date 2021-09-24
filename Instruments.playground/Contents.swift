@@ -135,5 +135,9 @@ class Amplifier {
         get {
             return isOn ? _volume : 0
         }
+        // 7
+        set {
+            _volume = min(max(newValue, 0), 10)
+        }
     }
 }
