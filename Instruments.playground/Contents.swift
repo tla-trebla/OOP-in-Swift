@@ -110,5 +110,10 @@ acousticGuitar.play(guitarMusic)
 
 // 1
 class Amplifier {
+    // 2
+    private var _volume: Int
     
+    init() {
+        _volume = 0
+    }
 }
