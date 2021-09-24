@@ -112,8 +112,11 @@ acousticGuitar.play(guitarMusic)
 class Amplifier {
     // 2
     private var _volume: Int
+    // 3
+    private(set) var isOn: Bool
     
     init() {
+        isOn = false
         _volume = 0
     }
 }
