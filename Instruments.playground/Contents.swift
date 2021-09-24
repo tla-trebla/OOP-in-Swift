@@ -131,6 +131,9 @@ class Amplifier {
     
     // 5
     var volume: Int {
-        
+        // 6
+        get {
+            return isOn ? _volume : 0
+        }
     }
 }
