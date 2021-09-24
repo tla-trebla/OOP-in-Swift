@@ -170,4 +170,8 @@ class ElectricGuitar: Guitar {
 class BassGuitar: Guitar {
     let amplifier: Amplifier
     
+    init(brand: String, stringGauge: String = "heavy", amplifier: Amplifier) {
+        self.amplifier = amplifier
+        super.init(brand: brand, stringGauge: stringGauge)
+    }
 }
