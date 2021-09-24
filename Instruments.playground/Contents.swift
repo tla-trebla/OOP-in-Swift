@@ -194,3 +194,17 @@ electricGuitar.tune()
 
 electricGuitar.play(music)
 bassGuitar.play(music)
+
+class Band {
+    let instruments: [Instrument]
+    
+    init(instruments: [Instrument]) {
+        self.instruments = instruments
+    }
+    
+    func perform(_ music: Music) {
+        for instrument in instruments {
+            instrument.perform(music)
+        }
+    }
+}
