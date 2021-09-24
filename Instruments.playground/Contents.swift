@@ -154,8 +154,7 @@ let amplifier = Amplifier()
 let electricGuitar = ElectricGuitar(brand: "Gibson", stringGauge: "light", amplifier: amplifier)
 let bassGuitar = BassGuitar(brand: "Fender", stringGauge: "heavy", amplifier: amplifier)
 
-electricGuitar.tune()
-
+bassGuitar.tune()
 electricGuitar.play(music)
 bassGuitar.play(music)
 
