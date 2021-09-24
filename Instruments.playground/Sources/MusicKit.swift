@@ -11,3 +11,8 @@ final public class Music {
         return notes.joined(separator: " ")
     }
 }
+
+// 3
+open class Instrument {
+    
+}
