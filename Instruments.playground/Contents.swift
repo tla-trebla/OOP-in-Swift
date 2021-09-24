@@ -159,4 +159,10 @@ class ElectricGuitar: Guitar {
         amplifier.volume = 5
         return "Tune \(brand) electric with E A D G B E"
     }
+    
+    // 5
+    override func play(_ music: Music) -> String {
+        let preparedNotes = super.play(music)
+        return "Play solo \(preparedNotes) at volume \(amplifier.volume)."
+    }
 }
