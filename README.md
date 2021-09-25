@@ -23,11 +23,11 @@ Link to the tutorial: https://www.raywenderlich.com/599-object-oriented-programm
 * Polymorphism where we using any form of instances that inherits a root class.
 * Access control to configure whether it's available for other modules or files.
   * There are various of access control:
-   * Private: Only visible inside the class.
-   * Fileprivate: Only visible in the same file.
-   * Internal: Visible to same module.
-   * Public: Visible anywhere.
-   * Open: Visible to every module and anywhere files, but also the behaviors are able to overridden and subclassed.
-   * Final: Cannot be overridden and subclassed.
+    * Private: Only visible inside the class.
+    * Fileprivate: Only visible in the same file.
+    * Internal: Visible to same module.
+    * Public: Visible anywhere.
+    * Open: Visible to every module and anywhere files, but also the behaviors are able to overridden and subclassed.
+    * Final: Cannot be overridden and subclassed.
 * Created a framework so it'll be able to be subclassed or overriden by other modules.
   * Logically, should be created either `public final` or `open` root class so it'll be visible to other module.
